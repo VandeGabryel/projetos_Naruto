@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naruto Time 7</title>
+
+    <style>
+        @font-face {
+            font-family: ninjaNaruto;
+            src: url(./src/ninja_naruto/njnaruto.ttf);
+        }
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+<body>
+      <header class="cabecalho">
+        <img height = "152" width= "296" class="logo" src="./src/imagens/png/logo.svg" alt="Logo Naruto">
+      </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"> Selecione um personagem</h1>
+            <ul class="lista-de-personagens">
+
+                <li class="personagem selecionado" id="minato" data-name="Minato Namikaze" data-description="Conhecido como Relampago Amarelo de Konoha, foi um shinobi lendario que se tornou o Quarto Hokage. Morreu sacrificando sua vida durante o Ataque da kyuubi em Konoha.">
+                    <img height="190px" width="123px" src="./src/imagens/jpg/minato.jpg" alt="Personagem Minato">
+                </li>
+
+                <li class="personagem" id="kakashi-kid" data-name="Kakashi kid" data-description="Ele era muito independente e autoconfiante, quando mais novo, antes de obter o seu Sharingan, Kakashi usava uma roupa preta simples.">
+                    <img  src="./src/imagens/jpg/kakashi-kid.jpg" height="190" width="123" alt="Personagem Kakashi kid">
+                </li>
+
+                <li class="personagem" id="obito" data-name="Obito Uchiha" data-description="Ele cresceu sem saber quem eram seus pais, tendo uma infância triste que o levou a sonhar em um dia se tornar Hokage para que as pessoas da aldeia pudessem reconhecer sua existência."> 
+                    <img src="./src/imagens/jpg/obito.jpg" alt="Personagem Obito Uchiha">
+                </li>
+                
+                <li class="personagem" id="rin" data-name="Rin Nohara" data-description="Ela foi uma ninja medica de nivel chunin do Time Minato. Rin viria a ser depois a relutante jinchuriki de Isobu, como parte da trama de Kirigakure para destruir Konoha.">
+                    <img src="./src/imagens/jpg/rin.jpg" alt="Rin Nohara">
+                </li>   
+
+                <li class="personagem" id="kakashi-sensei" data-name="Kakashi Sensei" data-description="Kakashi Hatake, ele recebeu um Sharingan de seu ex-companheiro de equipe, Obito Uchiha, fazendo-o ser conhecido como Kakashi o Ninja Copiador e Kakashi do Sharingan.">
+                    <img src="./src/imagens/jpg/kakashi-sensei.jpg" alt="Personagem Kakashi Sensei">
+                </li>
+
+                <li class="personagem" id="naruto" data-name="Naruto Uzumaki" data-description="Desde seu nascimento, ele se tornou jinchūriki da kyuubi, um destino que o levou a ser julgado por toda a vila durante sua infancia. Ele trabalhou duro, com o sonho de se tornar Hokage. ">
+                    <img src="./src/imagens/jpg/naruto.jpg" alt="Personagem Naruto">
+                </li>
+
+                <li class="personagem" id="sasuke" data-name="Sasuke Uchiha" data-description="Um dos ultimos membros dos Uchiha. Desertou da aldeia para obter poder com Orochimaru, e mais tarde se juntou a Akatsuki. No final, volta para Konoha, dedicando a sua vida para ajudar a proteger a vila.">
+                    <img src="./src/imagens/jpg/sasuke.jpg" alt="Personagem Sasuke">
+                </li>
+
+                <li class="personagem" id="sakura" data-name="Sakura Haruno" data-description="Mal preparada para os deveres de um ninja, treinando sob a tutela de sua mestra, Tsunade, ela se torna uma ninja mais forte e uma excelente ninja medica, sendo capaz de enfrentar os desafios de uma vida como um ninja.">
+                    <img src="./src/imagens/jpg/sakura.jpg" alt="Personagem Sakura">
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="src/imagens/png/minato.png" alt="Personagem Selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Minato Namikaze</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Conhecido como Relampago Amarelo de Konoha, foi um shinobi lendario que se tornou o Quarto Hokage. Morreu sacrificando sua vida durante o Ataque da kyuubi em Konoha. </p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
