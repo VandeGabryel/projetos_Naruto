@@ -27,3 +27,5 @@ personagens.forEach((personagem) => {
         
     })
 })
+
+alert("Para uma melhor expêriencia, veja em modo tela cheia (F11)")
